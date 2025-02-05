@@ -9,7 +9,10 @@
 /**********HEADER**********/
 
 header{
-    background-color: red;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    background-color: #ffffff;
 }
 
 nav{
@@ -30,3 +33,43 @@ a{
     color: #000000;
     font-size: 18px;
 }
+
+/* jumbotron */
+.jumbotron{
+    background-color: #b4d0e6;
+    padding: 100px 0 25px;
+    margin-bottom: 130px;
+}
+
+.container-jumbo{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 680px;
+    margin: 0 auto;
+    border: 1px dashed black;
+    background-color: green;
+}
+ .jumbo-up{
+    background-color: pink;
+    flex-basis: 40%;
+    border: 1px dashed black;
+ }
+
+ .jumbo-down{
+    flex-basis: 60%;
+    display: flex;
+    border: 1px dashed black;
+ }
+
+ .jumbo-down :first-child{
+    flex-basis: 30%;
+    background-color: yellow;
+    border: 1px dashed black;
+ }
+
+ .jumbo-down div+div{
+    flex-basis: 70%;
+    background-color: aqua;
+    border: 1px dashed black;
+ }
