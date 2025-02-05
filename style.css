@@ -41,7 +41,7 @@ a {
     width: 1000px;
     margin: 0 auto;
     background-color: rgb(20, 154, 154);
-    border: 1px dashed black;
+    border: 2px dashed blue;
 }
 
 /* jumbotron */
@@ -186,4 +186,34 @@ a {
     margin: 0 auto;
     background-color: rgb(20, 154, 154);
     border: 1px dashed black;
+}
+
+/* footer */
+
+footer{
+    background-color: #000000;
+    padding-top: 100px;
+}
+
+.container-footer{
+    flex-direction: column;
+    height: 450px;
+}
+
+.vari{
+    flex-basis: 75%;
+    border: 1px dashed white;
+    display: flex;
+    gap: 100px;
+}
+
+.vari > div{
+    width: calc((100% - 400px) / 5);
+    background-color: beige;
+    border: 1px dashed white;
+}
+
+.lingua{
+    flex-basis: 25%;
+    border: 1px dashed white;
 }
