@@ -5,3 +5,28 @@
     box-sizing: border-box;
     font-family: "Open Sans", serif;
 }
+
+/**********HEADER**********/
+
+header{
+    background-color: red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
