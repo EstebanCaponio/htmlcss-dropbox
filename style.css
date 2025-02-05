@@ -40,7 +40,7 @@ a {
     display: flex;
     width: 1000px;
     margin: 0 auto;
-    background-color: darkslategrey;
+    background-color: rgb(20, 154, 154);
     border: 1px dashed black;
 }
 
@@ -112,3 +112,14 @@ a {
 }
 
 /* section 3 */
+.section-3{
+    padding-top: 50px;
+}
+
+.container-3{
+    width: 1000px;
+    height: 260px;
+    margin: 0 auto;
+    background-color: rgb(20, 154, 154);
+    border: 1px dashed black;
+}
