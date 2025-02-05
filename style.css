@@ -8,40 +8,50 @@
 
 /**********HEADER**********/
 
-header{
+header {
     position: sticky;
     top: 0px;
     z-index: 3;
     background-color: #ffffff;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     gap: 40px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000000;
     font-size: 18px;
 }
 
+/* common */
+
+.container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: darkslategrey;
+    border: 1px dashed black;
+}
+
 /* jumbotron */
-.jumbotron{
+.jumbotron {
     background-color: #b4d0e6;
     padding: 100px 0 25px;
     margin-bottom: 130px;
 }
 
-.container-jumbo{
+.container-jumbo {
     display: flex;
     flex-direction: column;
     width: 1200px;
@@ -50,26 +60,55 @@ a{
     border: 1px dashed black;
     background-color: green;
 }
- .jumbo-up{
+
+.jumbo-up {
     background-color: pink;
     flex-basis: 40%;
     border: 1px dashed black;
- }
+}
 
- .jumbo-down{
+.jumbo-down {
     flex-basis: 60%;
     display: flex;
     border: 1px dashed black;
- }
+}
 
- .jumbo-down :first-child{
+.jumbo-down :first-child {
     flex-basis: 30%;
     background-color: yellow;
     border: 1px dashed black;
- }
+}
 
- .jumbo-down div+div{
+.jumbo-down div+div {
     flex-basis: 70%;
     background-color: aqua;
     border: 1px dashed black;
- }
+}
+
+/* section 2 */
+
+.container-2 {
+    height: 1200px;
+    flex-direction: column;
+}
+
+.period {
+    flex-basis: 25%;
+    background-color: chartreuse;
+    border: 1px dashed black;
+}
+
+.schede {
+    display: flex;
+    gap:50px;
+    flex-basis: 75%;
+    background-color: coral;
+    border: 1px dashed black;
+}
+
+.piano{
+    width: calc((100% - 100px) / 3);
+    border: 1px dashed black;
+}
+
+/* section 3 */
