@@ -123,3 +123,26 @@ a {
     background-color: rgb(20, 154, 154);
     border: 1px dashed black;
 }
+
+/* section 4 */
+
+.section-4{
+    padding-top: 220px;
+    padding-bottom: 170px;
+}
+
+.container-4{
+    height: 500px;
+}
+
+.foto{
+    flex-basis: 60%;
+    background-color: crimson;
+    border: 1px dashed black;
+}
+
+.partner{
+    flex-basis: 40%;
+    background-color: gold;
+    border: 1px dashed black;
+}
