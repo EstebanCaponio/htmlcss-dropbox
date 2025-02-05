@@ -173,3 +173,17 @@ a {
     border: 1px dashed black;
     margin-bottom: 80px;
 }
+
+/* section 6 */
+
+.section-6{
+    padding: 120px 0 180px 0;
+}
+
+.container-6{
+    width: 1000px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: rgb(20, 154, 154);
+    border: 1px dashed black;
+}
