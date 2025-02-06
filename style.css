@@ -224,20 +224,34 @@ h3{
     padding-bottom: 170px;
 }
 
-.container-4{
-    height: 500px;
-}
-
 .foto{
-    flex-basis: 60%;
-    background-color: crimson;
-    border: 1px dashed black;
+    max-width: 60%;
 }
 
+.foto img{
+    width: 100%;
+    display: block;
+}
 .partner{
-    flex-basis: 40%;
-    background-color: gold;
-    border: 1px dashed black;
+    max-width: 40%;
+    padding: 50px 50px 0 50px;
+}
+
+h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.btn-partner{
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.btn-partner:hover{
+    background-color: #0061fe;
+    filter: brightness(1.4);
 }
 
 /* section 5 */
