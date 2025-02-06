@@ -12,8 +12,11 @@
     display: flex;
     width: 1000px;
     margin: 0 auto;
-    background-color: rgb(20, 154, 154);
     border: 2px dashed blue;
+}
+
+ul{
+    list-style: none;
 }
 
 a {
@@ -53,7 +56,6 @@ header>div{
 
 header ul {
     display: flex;
-    list-style: none;
     gap: 40px;
     align-items: center;
 }
@@ -62,7 +64,7 @@ header ul {
 .jumbotron {
     background-color: #b4d0e6;
     padding: 100px 0 25px;
-    margin-bottom: 130px;
+    margin-bottom: 200px;
 }
 
 .container-jumbo {
@@ -86,11 +88,6 @@ h1{
     max-width:30%;
 }
 
-i{
-    font-size: medium;
-    background-color: #000000;
-}
-
 .jumbo-down div+div {
     max-width: 70%;
 }
@@ -105,16 +102,47 @@ width: 100%;
     flex-direction: column;
 }
 
-.period {
+.container-2{
+    flex-direction: column;
+    height: 1200px;
+}
+
+.section-2 ul{
+    display: flex;
+    gap: 50px;
+    padding: 70px 0 50px 0;
+}
+
+.section-2 ul li{
+    display: flex;
+    gap: 5px;
+}
+
+.section-2 li div:first-child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.pallino1{
+    border: 5px solid #0162ff;
+}
+
+.pallino2{
+    border: 2px solid #e3e3e5;
+}
+
+/* .period {
     flex-basis: 25%;
     background-color: chartreuse;
     border: 1px dashed black;
-}
+} */
 
 .schede {
     display: flex;
+    flex-wrap: wrap;
     gap:50px;
-    flex-basis: 75%;
+    flex-basis: 100%;
     background-color: coral;
     border: 1px dashed black;
 }
@@ -122,19 +150,12 @@ width: 100%;
 .piano{
     width: calc((100% - 100px) / 3);
     border: 1px dashed black;
+}.piano-big{
+    flex-grow: 1;
 }
 
-/* section 3 */
-.section-3{
-    padding-top: 50px;
-}
-
-.container-3{
-    width: 1000px;
-    height: 260px;
-    margin: 0 auto;
-    background-color: rgb(20, 154, 154);
-    border: 1px dashed black;
+.fa-user{
+    font-size: 20px;
 }
 
 /* section 4 */
