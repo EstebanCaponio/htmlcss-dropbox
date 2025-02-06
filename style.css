@@ -36,6 +36,11 @@ a {
     filter: brightness(1.4);
 }
 
+
+.container-2-5 {
+    height: 1200px;
+    flex-direction: column;
+}
 /**********HEADER**********/
 
 header {
@@ -97,28 +102,23 @@ width: 100%;
 }
 /* section 2 */
 
-.container-2-5 {
-    height: 1200px;
-    flex-direction: column;
-}
-
 .container-2{
     flex-direction: column;
     height: 1200px;
 }
 
-.section-2 ul{
+.fatturazione{
     display: flex;
     gap: 50px;
     padding: 70px 0 50px 0;
 }
 
-.section-2 ul li{
+.fatturazione li{
     display: flex;
     gap: 5px;
 }
 
-.section-2 li div:first-child{
+.fatturazione li div:first-child{
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -132,12 +132,6 @@ width: 100%;
     border: 2px solid #e3e3e5;
 }
 
-/* .period {
-    flex-basis: 25%;
-    background-color: chartreuse;
-    border: 1px dashed black;
-} */
-
 .schede {
     display: flex;
     flex-wrap: wrap;
@@ -150,6 +144,7 @@ width: 100%;
 .piano{
     width: calc((100% - 100px) / 3);
     border: 1px dashed black;
+
 }.piano-big{
     flex-grow: 1;
 }
@@ -158,6 +153,11 @@ width: 100%;
     font-size: 20px;
 }
 
+.soggetto{
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #d0cfd4;
+}
 /* section 4 */
 
 .section-4{
