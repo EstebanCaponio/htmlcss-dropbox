@@ -58,6 +58,14 @@ header a {
     font-size: 18px;
 }
 
+header a:hover{
+    padding-bottom: 44px;
+    border-bottom: 2px solid black;
+}
+
+header ul li div{
+    font-size: 18px;
+}
 /* jumbotron */
 .jumbotron {
     background-color: #b4d0e6;
@@ -88,6 +96,11 @@ h1{
 
 .jumbo-down div+div {
     max-width: 70%;
+}
+
+.arrow{
+    font-size: 50px;
+    padding-top: 70px;
 }
 
 .jumbo-down div+div img{
