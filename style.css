@@ -10,9 +10,8 @@
 
 .container {
     display: flex;
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
-    border: 2px dashed blue;
 }
 
 ul{
@@ -69,7 +68,7 @@ header a {
 .container-jumbo {
     display: flex;
     flex-direction: column;
-    width: 1190px;
+    max-width: 1190px;
     margin: 0 auto;
 }
 
@@ -92,7 +91,7 @@ h1{
 }
 
 .jumbo-down div+div img{
-width: 100%;
+max-width: 100%;
 }
 /* section 2 */
 
@@ -133,11 +132,12 @@ width: 100%;
 }
 
 .piano{
-    width: calc((100% - 100px) / 3);
-    border: 1px dashed black;
+    max-width: calc((100% - 100px) / 3);
+    border: 1px solid #d0cfd4;
 
 }.piano-big{
     flex-grow: 1;
+    max-width: 1000px;
 }
 
 .soggetto{
@@ -176,10 +176,15 @@ width: 100%;
     gap: 5px;
 }
 
+.btn-schede{
+    display: block;
+    text-align: center;
+}
+
 .underline-span{
     display: inline-block;
     padding: 35px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d0cfd4;
     margin-bottom: 50px;
 }
 
@@ -243,8 +248,9 @@ h4{
 }
 
 .btn-partner:hover{
-    background-color: #0061fe;
-    filter: brightness(1.4);
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
 
 /* section 5 */
@@ -288,13 +294,19 @@ h5{
 }
 
 .container-6{
-    width: 1000px;
-    height: 180px;
+    max-width: 1000px;
     margin: 0 auto;
-    background-color: rgb(20, 154, 154);
-    border: 1px dashed black;
 }
 
+.container-6 div:first-child{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+
+.container-6 a{
+    font-size: 18px;
+}
 /* footer */
 
 footer{
