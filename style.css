@@ -19,12 +19,6 @@ ul{
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 18px;
-}
-
 .btn{
     background-color: #0061fe;
     padding: 15px;
@@ -63,6 +57,12 @@ header ul {
     display: flex;
     gap: 40px;
     align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
 }
 
 /* jumbotron */
@@ -104,7 +104,7 @@ width: 100%;
 
 .container-2{
     flex-direction: column;
-    height: 1200px;
+    
 }
 
 .fatturazione{
@@ -136,9 +136,7 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap:50px;
-    flex-basis: 100%;
-    background-color: coral;
-    border: 1px dashed black;
+    
 }
 
 .piano{
@@ -149,14 +147,75 @@ width: 100%;
     flex-grow: 1;
 }
 
-.fa-user{
-    font-size: 20px;
-}
-
 .soggetto{
     padding: 15px 0;
     text-align: center;
     border-bottom: 1px solid #d0cfd4;
+}
+
+.info-box{
+    padding: 40px 30px 40px 30px;
+}
+
+.info-box ul:first-child{
+    padding-bottom: 50px;
+}
+
+.tipologia{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.prezzo{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px 0 15px 0;
+}
+
+.durata{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.specifiche1 li div{
+    display: flex;
+    padding-bottom: 30px;
+    gap: 5px;
+}
+
+.underline-span{
+    display: inline-block;
+    padding: 35px 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+h3{
+    padding-bottom: 30px;
+}
+.fa-check{
+    color: #186dfe;
+}
+
+.info-box-big{
+    position: relative;
+}
+
+.enterprise{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.enterprise-sub{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.enterprise-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
 /* section 4 */
 
